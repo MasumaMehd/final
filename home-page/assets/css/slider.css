@@ -1,0 +1,40 @@
+.carousel__item {
+    display: none;
+}
+
+.carousel__item.active {
+    display: block;
+}
+
+.carousel__images .carousel__image {
+    display: none;
+}
+
+.carousel__images img {
+    width: 100%;
+}
+
+.carousel__images .carousel__image.active {
+    display: block;
+}
+
+.carousel__indicator {
+    height: 9px;
+    width: 67px;
+    border-radius: 6px;
+    background: #FFF;
+    display: inline-block;
+    margin: 0 12px;
+    cursor: pointer;
+}
+
+.carousel__indicator.active {
+    background-color: #000000;
+}
+
+.carousel__text {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}

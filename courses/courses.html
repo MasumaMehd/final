@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>StackJunior</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="../home-page/assets/images/icons/favicon.svg">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/courses.css">
+    <link rel="stylesheet" href="css/responsive.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="row">
+                <nav>
+                    <div class="nav_logo">
+                        <div class="hamburger">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </div>
+                        <a href="../index.html"><img src="../home-page/assets/images/icons/logo.svg" alt="logo" /></a>
+                    </div>
+                    <ul class="nav_list">
+                        <li  class="page_active"><a href="#">Courses</a></li>
+                        <li><a href="../about/about.html">About StackJunior</a></li>
+                        <li><a href="../courses/courses.html">Quick Tutorials</a></li>
+                        <a href="#">My Account</a>
+                        <button class="nav_button">Start Learning</button>
+                    </ul>
+                    <div class="nav_link">
+                        <a href="#">My Account</a>
+                        <button  class="nav_button"><a href="stackJunior/index.html" class="nav_button_link">Start Learning</a></button>
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <section class="header">
+        <div class="container">
+            <div class="row">
+                <div class="header-container">
+                    <h1><span>Search</span> for your desired <span>courses</span></h1>
+                    <div class="search_panel">
+                        <div class="searcher">
+                            <input type="text" id="mySearch" onkeyup="mySearchBar()" placeholder="What are you looking for ? ">
+                            <button type="submit"><img src="images/search.png" alt=""></button>
+                        </div>
+                        <ul class="myMenu" id="myMenu">
+                            <li><a href="../final-project-main/courses/1.html">Introduction to Programming</a></li>
+                            <li><a href="../final-project-main/courses/2.html">Frontend Development</a></li>
+                            <li><a href="../final-project-main/courses/3.html">UI / UX Designing</a></li>
+                            <li><a href="../final-project-main/courses/4.html">SQL Programming</a></li>
+                        </ul>
+                    </div>
+                    <img src="images/courses-1.png" alt="" style="z-index: -10;">
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section class="courses">
+        <div class="container">
+            <div class="row">
+                <div class="courses-container">
+                    <h1>Check out our courses</h1>
+                    <div class="courses-cards">
+                        <div class="card">
+                            <img src="images/programming.png" alt="">
+                            <p>Introduction to Programming</p>
+                            <div class="learn-more">
+                                <a href="../final-project-main/courses/1.html">Click to learn more</a>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <img src="images/courses2 1.png" alt="">
+                            <p>Frontend Development</p>
+                            <div class="learn-more">
+                                <a href="../final-project-main/courses/2.html">Click to learn more</a>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <img src="images/courses3 1.png" alt="">
+                            <p>UI / UX Designing</p>
+                            <div class="learn-more">
+                                <a href="../final-project-main/courses/3.html">Click to learn more</a>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <img src="images/courses3 2.png" alt="">
+                            <p>SQL Programming</p>
+                            <div class="learn-more">
+                                <a href="../final-project-main/courses/4.html">Click to learn more</a>
+                            </div>
+                        </div>
+                    </div>
+                    <button><a href="../courses/courses.html">View ALL Courses</a></button>
+                </div>
+                
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer_info">
+            <div class="container">
+                <div class="footer_wrapper">
+                    <div class="footer_main">
+                        <div class="footer_logo">
+                            <a href="#"><img src="../home-page/assets/images/logo-footer.png" alt="logo" /></a>
+                        </div>
+                        <div class="footer_descr">
+                            Is an ed-tech platform that trains <br />
+                            kids and teenagers in programming and other tech skills
+                        </div>
+                    </div>
+                    <div class="footer_items">
+                        <div class="footer_item">
+                            <h3 class="footer_title">Quick Links</h3>
+                            <ul class="footer_list">
+                                <li><a href="about/about.html">About StackJunior</a></li>
+                                <li><a href="courses/courses.html">Courses</a></li>
+                                <li><a href="courses/courses.html">Career</a></li>
+                                <li><a href="#">FAQs</a></li>
+                                <li><a href="#">Privacy Policy</a></li>
+                                <li><a href="#">Send Feedback</a></li>
+                                <li><a href="#">Partnerships</a></li>
+                            </ul>
+                        </div>
+                        <div class="footer_item">
+                            <h3 class="footer_title">Socials</h3>
+                            <div class="footer_socials">
+                                <a href="https://facebook.com/"><img src="../home-page/assets/images/icons/facebook (1).svg"
+                                        alt="facebook" /></a>
+                                <a href="https://twitter.com"><img src="../home-page/assets/images/icons/twitter.svg"
+                                        alt="twitter" /></a>
+                                <a href="https://instagram.com"><img src="../home-page/assets/images/icons/instagram.svg"
+                                        alt="instagram" /></a>
+                                <a href="https://youtube.com"><img src="../home-page/assets/images/icons/youtube.svg"
+                                        alt="youtube" /></a>
+                            </div>
+                            <h4 class="footer_subtitle">Contact Us</h4>
+                            <ul class="footer_list">
+                                <li><a href="tel:+2343215648342">+234 321 564 8342</a></li>
+                                <li><a href="tel:+2343215648342">+234 321 564 8342</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer_rights">©2022 - StackJunior. All Rights Reserved.</div>
+        <div class="footer_ask">
+            <div class="ask_img">
+                <img src="../home-page/assets/images/icons/junior.svg" alt="junior" />
+            </div>
+            <div class="ask_text">Ask Junior ?</div>
+        </div>
+        <div class="chat">
+            <div class="chat_head">Welcome!</div>
+            <div class="chat_body">
+                <form class="chat_form">
+                    <div class="chat_text">
+                        Welcome! We are always ready to answer your questions. Write to us below, and we will be happy
+                        to help you solve any
+                        problem.
+                    </div>
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" />
+                    <label for="email">E-mail:</label>
+                    <input type="email" id="email" />
+                    <label for="message">Message</label>
+                    <textarea name="message" id="message"></textarea>
+                    <button class="chat_btn">Send</button>
+                </form>
+            </div>
+        </div>
+    </footer>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="scripts/main.js"></script>
+    <script src="scripts/script.js"></script>
+</body>
+</html>

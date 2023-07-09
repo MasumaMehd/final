@@ -1,0 +1,133 @@
+@media screen and (max-width: 1350px) {
+    .app_image_1 {
+        max-width: 300px;
+    }
+
+    .app_image_2 {
+        max-width: 300px;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .choose_us_text_container h2, .section_tutorials h1, .section_people h1, .section_features h1 {
+        font-size: 26px;
+    }
+
+    .choose_us_text_container {
+        text-align: center;
+    }
+
+    .choose_us_text_container p, .section_tutorials h2, .features_card p, .content_app p, .number_wrapper p {
+        font-size: 18px;
+    }
+
+    .section_choose_us {
+        padding: 60px 0;
+    }
+
+    .choose_us_text_container, .choose_us_image_container {
+        height: unset;
+        margin: 30px 0;
+    }
+
+    .section_choose_us h1, .content_app h1, .number_wrapper h3 {
+        font-size: 36px;
+    }
+
+    .md-trigger {
+        width: 100px;
+    }
+
+    .features_card {
+        min-height: 500px;
+    }
+
+    .features_card h2 {
+        font-size: 22px;
+    }
+
+    .section_features {
+        padding-bottom: 80px;
+    }
+
+    .video_wrapper {
+        padding: 15px 30px;
+    }
+
+    .section_tutorials {
+        padding-top: 50px;
+    }
+
+    .md-content h3 {
+        font-size: 1.4em;
+    }
+
+    .carousel__indicators {
+        margin: 0 auto;
+    }
+
+    .app_image_1 {
+        max-width: 200px;
+    }
+
+    .app_image_2 {
+        max-width: 200px;
+    }
+
+    .starting_container_left input {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .search_icon {
+        width: 100%;
+        margin-left: 0;
+        height: 60px;
+    }
+
+    .starting_container_right {
+        margin-top: 0;
+    }
+
+    .starting_container_right img {
+        width: 90%;
+        padding-top: 15px;
+    }
+
+    @media screen and (max-width: 768px) {
+        .md-trigger {
+            width: 50px;
+        }
+
+        .section_features h1 {
+            margin-bottom: 10px;
+        }
+
+        .app_image_1 {
+            display: none;
+        }
+
+        .app_image_2 {
+            display: none;
+        }
+
+        .content_app img {
+            width: 75%;
+        }
+    }
+
+
+    @media screen and (max-width: 576px) {
+        .video_wrapper {
+            margin-bottom: -80px;
+        }
+
+        .section_features {
+            padding-top: 110px;
+        }
+
+        .starting_container_left h1 {
+            font-size: 50px;
+        }
+    }
+}

@@ -1,0 +1,348 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!--    Connect Bootstrap CDN-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!--    All app.css-->
+    <link rel="stylesheet" href="home-page/assets/app.css">
+    <!--    Add favicon-->
+    <link rel="icon" type="image/x-icon" href="home-page/assets/images/icons/favicon.svg">
+    <!--    Title-->
+    <title>StackJunior</title>
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <div class="row">
+                <nav>
+                    <div class="nav_logo">
+                        <div class="hamburger">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </div>
+                        <a href="index.html"><img src="home-page/assets/images/icons/logo - Copy.svg" alt="logo" /></a>
+                    </div>
+                    <ul class="nav_list">
+                        <li><a href="courses/courses.html">Courses</a></li>
+                        <li><a href="about/about.html">About StackJunior</a></li>
+                        <li><a href="courses/courses.html">Quick Tutorials</a></li>
+                        <a href="#">My Account</a>
+                        <button class="nav_button"><a href="stackJunior/index.html">Start Learning</a></button>
+                    </ul>
+                    <div class="nav_link">
+                        <a href="#">My Account</a>
+                        <button  class="nav_button"><a href="stackJunior/index.html" class="nav_button_link">Start Learning</a></button>
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <!--  Section Start  -->
+    <section class="section_starting">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-6">
+                    <div class="starting_container_left">
+                        <h1>Learn on your <br> schedule</h1>
+                        <input type="text" placeholder="Search for your desired courses">
+                        <img class="search_icon" src="home-page/assets/icons/search.svg" alt="search">
+                    </div>
+                </div>
+
+                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-6">
+                    <div class="starting_container_right">
+                        <img src="home-page/assets/images/kid.png" alt="kid_photo">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!--  Section Number  -->
+    <section class="section_number">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+                    <div class="number_wrapper">
+                        <h3 id="counter">0</h3>
+                        <p>Courses</p>
+                    </div>
+                </div>
+
+                <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+                    <div class="number_wrapper">
+                        <h3 id="counter2">0</h3>
+                        <p>Tutors</p>
+                    </div>
+                </div>
+
+                <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+                    <div class="number_wrapper">
+                        <h3 id="counter3">0</h3>
+                        <p>Students</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--  Section Choose Us  -->
+    <section class="section_choose_us">
+        <div class="container">
+            <div class="row">
+                <h1>Why Choose Us ?</h1>
+
+                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-6">
+                    <div class="choose_us_image_container">
+                        <img src="home-page/assets/images/choose_us/banner_1.svg" alt="banner_1">
+                    </div>
+                </div>
+
+                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-6">
+                    <div class="choose_us_text_container">
+                        <h2>Detailed Syllabus with Localized Content</h2>
+                        <p>We’ve got a comprehensive syllabus that leaves nothing untouched and with our localized contents and examples, you are sure to grasp programming concepts easier and faster even without prior experience (i.e. as a beginner).
+                        </p>
+                    </div>
+                </div>
+
+                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-6">
+                    <div class="choose_us_text_container">
+                        <h2>An Interactive Personalized Learning Experience</h2>
+                        <p>
+                            With StackJunior's flexible learning options and 1-on-1 code review with seasoned tutors,
+                            your
+                            learning is suited just for you.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-6">
+                    <div class="choose_us_image_container">
+                        <img src="home-page/assets/images/choose_us/banner_2.png" alt="banner_2">
+                    </div>
+                </div>
+
+                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-6">
+                    <div class="choose_us_image_container">
+                        <img src="home-page/assets/images/choose_us/banner_3.svg" alt="banner_3">
+                    </div>
+                </div>
+
+                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-6">
+                    <div class="choose_us_text_container">
+                        <h2>World-Class Learning with World-Class Jobs</h2>
+                        <p>At StackJunior, we impact students with industry-standard skills and trainings. We also support them in getting jobs that are available from around the globe. How cool is that?
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!--  Section Quick Tutorials  -->
+    <section class="section_tutorials">
+        <div class="container">
+            <div class="row">
+                <h1>QUICK TUTORIALS</h1>
+                <h2>
+                    <span>At StackJunior,</span> acquire <span>industry-relevant tech skills</span> such as programming,
+                    software development, data science,
+                    cloud computing and more to <span>become a world-class IT professional.</span>
+                </h2>
+
+                <div class="video_wrapper">
+                    <img src="home-page/assets/images/video_image.svg" alt="video_image">
+                    <img class="md-trigger" data-modal="modal-13" src="home-page/assets/icons/play_button.svg" alt="play_button">
+
+                    <div class="btn_start_group">
+                        <!--  Modal Windows  -->
+                        <div class="md-modal md-effect-13" id="modal-13">
+                            <div class="md-content">
+                                <h3>What is Information Technology</h3>
+                                <div>
+                                    <video src="home-page/public/video.mp4" width="100%" height="280px" controls></video>
+                                    <button class="md-close">CLOSE</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="md-overlay"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!--  Section Features Include  -->
+    <section class="section_features">
+        <div class="container">
+            <div class="row">
+                <h1>Features Include</h1>
+
+                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-6">
+                    <div class="features_card">
+                        <img src="home-page/assets/images/features/features_1.svg" alt="features_1">
+                        <h2>Code Reviews</h2>
+                        <p>We don’t just give you assignments, we review your solutions and give you insightful
+                            feedbacks on
+                            your code to enhance and reinforce your understanding.</p>
+                    </div>
+                </div>
+
+                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-6">
+                    <div class="features_card">
+                        <img src="home-page/assets/images/features/features_2.svg" alt="features_2">
+                        <h2>Mentorship</h2>
+                        <p>Even without being in a physical class, we make it possible for our students to ask questions and get guidance through our seasoned and qualified mentors.</p>
+                    </div>
+                </div>
+
+                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-6">
+                    <div class="features_card">
+                        <img src="home-page/assets/images/features/features_3.svg" alt="features_3">
+                        <h2>Live Code Editor</h2>
+                        <p>Whether at home or on the go, you can still follow your classes and practice with our
+                            easy-to-use
+                            code editor. It works on both the web and mobile app.</p>
+                    </div>
+                </div>
+
+                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-6">
+                    <div class="features_card">
+                        <img src="home-page/assets/images/features/features_4.svg" alt="features_4">
+                        <h2>Community Forums</h2>
+                        <p>Just because you are learning online doesn’t mean you have to be all alone. With our discussion forum, you can share your opinions with other students and even make friends.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!--  Section People  -->
+    <section class="section_people">
+        <div class="carousel">
+            <div class="container">
+                <div class="row">
+                    <h1>What People Are Saying</h1>
+                    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-6">
+                        <div class="carousel__images">
+                            <img class="carousel__image active" src="home-page/assets/images/people/stars.svg" alt="Slide 1">
+                            <img class="carousel__image" src="home-page/assets/images/choose_us/banner_2.svg" alt="Slide 2">
+                            <img class="carousel__image" src="home-page/assets/images/features/features_4.svg" alt="Slide 3">
+                        </div>
+                    </div>
+
+                    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-6">
+                        <div class="carousel__text">
+                            <div class="carousel__item active">
+                                <p> I took the python course using the mobile app and I found the videos encouraging and
+                                    helpful.</p>
+                                <span>- John Doe</span>
+                            </div>
+                            <div class="carousel__item">
+                                <p> If you're smart, you can do more with fewer materials or actions.</p>
+                                <span>- Michael Feathers</span>
+                            </div>
+                            <div class="carousel__item">
+                                <p> When I start seeing patterns in the code, it's a signal that it's time to refactor it.</p>
+                                <span>- Dmitry Kazimirov</span>
+                            </div>
+
+                            <div class="carousel__indicators">
+                                <div class="carousel__indicator active" onclick="currentSlide(0)"></div>
+                                <div class="carousel__indicator" onclick="currentSlide(1)"></div>
+                                <div class="carousel__indicator" onclick="currentSlide(2)"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!--  Section App  -->
+    <section class="section_app">
+        <div class="container">
+            <div class="row">
+                <div class="content_app">
+                    <h1>Download StackJunior App</h1>
+                    <p>
+                        Whether at home or on the go, <span>StackJunior</span> wants <br>
+                        you to keep learning. Hence, the <span>StackJunior</span> app.
+                    </p>
+
+                    <img src="home-page/assets/icons/app.png" alt="app_picture">
+                </div>
+
+                <img class="app_image_1" src="home-page/assets/images/app/app_1.svg" alt="app_1">
+                <img class="app_image_2" src="home-page/assets/images/app/app_2.svg" alt="app_2">
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="footer_info">
+            <div class="container">
+                <div class="footer_wrapper">
+                    <div class="footer_main">
+                        <div class="footer_logo">
+                            <a href="index.html"><img src="home-page/assets/images/logo-footer.png" alt="logo" /></a>
+                        </div>
+                        <div class="footer_descr">
+                            Is an ed-tech platform that trains <br />
+                            kids and teenagers in programming and other tech skills
+                        </div>
+                    </div>
+                    <div class="footer_items">
+                        <div class="footer_item">
+                            <h3 class="footer_title">Quick Links</h3>
+                            <ul class="footer_list">
+                                <li><a href="about/about.html">About StackJunior</a></li>
+                                <li><a href="courses/courses.html">Courses</a></li>
+                                <li><a href="courses/courses.html">Career</a></li>
+                                <li><a href="#">FAQs</a></li>
+                                <li><a href="#">Privacy Policy</a></li>
+                                <li><a href="#">Send Feedback</a></li>
+                                <li><a href="#">Partnerships</a></li>
+                            </ul>
+                        </div>
+                        <div class="footer_item">
+                            <h3 class="footer_title">Socials</h3>
+                            <div class="footer_socials">
+                                <a href="https://facebook.com/"><img src="home-page/assets/images/icons/facebook (1).svg"
+                                        alt="facebook" /></a>
+                                <a href="https://twitter.com"><img src="home-page/assets/images/icons/twitter.svg"
+                                        alt="twitter" /></a>
+                                <a href="https://instagram.com"><img src="home-page/assets/images/icons/instagram.svg"
+                                        alt="instagram" /></a>
+                                <a href="https://youtube.com"><img src="home-page/assets/images/icons/youtube.svg"
+                                        alt="youtube" /></a>
+                            </div>
+                            <h4 class="footer_subtitle">Contact Us</h4>
+                            <ul class="footer_list">
+                                <li><a href="tel:+2343215648342">+234 321 564 8342</a></li>
+                                <li><a href="tel:+2343215648342">+234 321 564 8342</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer_rights">©2022 - StackJunior. All Rights Reserved.</div>
+    </footer>
+
+    <script src="home-page/js/main.js"></script>
+    <script src="home-page/js/menu.js"></script>
+</body>
+
+</html>
